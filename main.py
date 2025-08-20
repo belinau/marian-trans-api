@@ -4,7 +4,7 @@ from transformers import MarianMTModel, MarianTokenizer
 
 app = FastAPI()
 
-model_name = "Helsinki-NLP/opus-mt-en-sl"
+model_name = "Helsinki-NLP/opus-mt-en-sla"
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name)
 
