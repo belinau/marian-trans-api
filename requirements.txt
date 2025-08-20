@@ -1,7 +1,6 @@
 fastapi
 uvicorn[standard]
-transformers==4.30.0
+transformers==4.20.0
 torch==2.8.0
 huggingface_hub==0.16.4
 sentencepiece==0.1.99
-tokenizers==0.12.1
