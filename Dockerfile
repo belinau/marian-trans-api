@@ -1,5 +1,5 @@
 # Use a base image with Python and common build tools
-FROM python:3.9-slim-buster
+FROM python:3.9-slim-bullseye
 
 # Install system dependencies required for ML libraries and Rust
 # This includes build-essential for C/C++ compilation, and curl for rustup
