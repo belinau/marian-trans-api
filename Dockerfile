@@ -29,4 +29,4 @@ EXPOSE 8000
 
 # Command to run your FastAPI application with Uvicorn
 # Ensure your app listens on 0.0.0.0 and the PORT environment variable
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "$PORT"]
+CMD uvicorn main:app --host 0.0.0.0 --port $PORT
